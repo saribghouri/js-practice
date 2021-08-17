@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         var a= 70000;
+         var b= 30000;     
+         var c= 300;    
+         var d=  10;    
+         var e= 1;
+
+         function getLargest(a,b,c,d,e){
+  if(a > b && a > c && a > d && a > e){return a;}
+  if(b > a && b > c && b > d && b > e){return b;}
+  if(c > a && c > b && c > d && a > e){return c;}
+  if(d > a && d > b && d > c && d > e){return d;}
+  if(e > a && e > b && e > c && e > d){return e;}
+}
+
+alert(getLargest( a,b,c,d,e));
+
+
+    </script>
+
+</body>
+</html>
